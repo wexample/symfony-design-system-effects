@@ -9,3 +9,11 @@ A disc of the seed's colour under a white sheen, and one of 26 pairs of white ey
 To make it every avatar's default, set `wexample_symfony_design_system.avatar.default_engine: wexies-2020` in the application's parameters.
 
 The face follows the seed and nothing else. The original read the name — a rename changed the face — and, from 2021 on, a random generator that changed the colour at every request: neither came back.
+
+## Avatars: `facets`
+
+Three planes of colour laid across a white square, each cut by a straight edge, darker where they cross (`mix-blend-mode: multiply`), and a corner left white. The colours are neighbours on the wheel from a hue of the seed; the corner, the angles and how far each edge stands from the centre are the seed's too.
+
+```twig
+{{ avatar(user.id, { engine: 'facets' }) }}
+```
