@@ -1,0 +1,1 @@
+Effects of the wexample brand for the design system, kept out of it so it stays plain: each one plugs into a seam `symfony-design-system` opens. Avatar engines first: `wexies-2020`, the faces network gave its members from 2019 on, and `facets`, planes of colour crossing on white.
