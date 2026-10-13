@@ -1,6 +1,6 @@
 # symfony-design-system-effects
 
-Version: 2.0.0
+Version: 2.0.1
 
 ## Avatars: `wexies-2020`
 
@@ -73,7 +73,7 @@ Visit the [Wexample Suite documentation](https://docs.wexample.com) for the comp
 
 - php: >=8.5
 - wexample/symfony-helpers: >=16.0.0
-- wexample/symfony-design-system: >=34.0.0
+- wexample/symfony-design-system: >=35.0.0
 
 ## Versioning & Compatibility Policy
 
