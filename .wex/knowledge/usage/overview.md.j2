@@ -17,3 +17,17 @@ Three planes of colour laid across a white square, each cut by a straight edge, 
 ```twig
 {{ avatar(user.id, { engine: 'facets' }) }}
 ```
+
+## Text effects
+
+For a page that speaks loud — a landing, a hero:
+
+```twig
+Des solutions {{ text_highlight('sur-mesure') }} et {{ text_highlight('durables', { tone: 'grass' }) }}.
+Le réseau de freelances {{ word_switcher(['inclusif', 'solidaire', 'généreux']) }}.
+```
+
+- **`text_highlight(text, { tone, class })`**: a pill of colour behind the lower part of the words, slightly tilted, drawn from the middle outwards once they come into view; several on a page are drawn one after the other. `tone` is a name of the categorical palette (`aqua` by default).
+- **`word_switcher(words, { interval, roll, class })`**: every `interval` ms (2000), the word rolls through random letters for `roll` ms (500), as many as the coming word, then settles on it. Screen readers read the list, once.
+
+Under `prefers-reduced-motion`, the pill is there from the start and the word changes without rolling.
