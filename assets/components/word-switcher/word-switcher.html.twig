@@ -1,0 +1,6 @@
+{#- A word that rolls, then settles on the next of `words`. What is read aloud
+    is the list, once: the rolling letters are for the eye only. -#}
+<span class="word-switcher{% if class|default(null) %} {{ class }}{% endif %}">
+    <span class="word-switcher--word" aria-hidden="true">{{ words|first }}</span>
+    <span class="visually-hidden">{{ words|join(', ') }}</span>
+</span>

@@ -6,3 +6,6 @@ services:
 
     Wexample\SymfonyDesignSystemEffects\Avatar\:
         resource: '../../Avatar/'
+
+    Wexample\SymfonyDesignSystemEffects\Twig\:
+        resource: '../../Twig/'

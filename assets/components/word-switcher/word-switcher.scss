@@ -1,0 +1,18 @@
+// A word that rolls like a slot machine: while it does, it springs a little
+// apart from its neighbours, then eases back once the next word settles.
+.word-switcher {
+  display: inline-block;
+}
+
+.word-switcher--word {
+  display: inline-block;
+  text-align: center;
+  margin-inline: 0;
+  transition: margin 1s cubic-bezier(0.075, 0.82, 0.025, 0.975);
+}
+
+.word-switcher--rolling .word-switcher--word {
+  margin-inline: 0.5em;
+  font-variant-numeric: tabular-nums;
+  transition: margin 1s cubic-bezier(0.135, 1.575, 0.025, 0.975);
+}
