@@ -1,6 +1,6 @@
 # symfony-design-system-effects
 
-Version: 2.0.1
+Version: 2.0.2
 
 ## Avatars: `wexies-2020`
 
