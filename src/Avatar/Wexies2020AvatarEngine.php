@@ -4,6 +4,7 @@ namespace Wexample\SymfonyDesignSystemEffects\Avatar;
 
 use Wexample\SymfonyDesignSystem\Helper\AvatarHelper;
 use Wexample\SymfonyDesignSystem\Interface\AvatarEngineInterface;
+use Wexample\SymfonyHelpers\Attribute\WorkerSafe;
 
 /**
  * The faces network gave its members from 2019 on: a disc of the seed's
@@ -25,6 +26,7 @@ class Wexies2020AvatarEngine implements AvatarEngineInterface
     /**
      * @var array<string, string>|null what each pair of eyes draws, by letter
      */
+    #[WorkerSafe('The eye shapes, read once from the bundled files.')]
     private ?array $eyes = null;
 
     public static function getName(): string
