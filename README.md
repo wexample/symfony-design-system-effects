@@ -1,6 +1,6 @@
 # symfony-design-system-effects
 
-Version: 3.0.0
+Version: 3.0.1
 
 ## Avatars: `wexies-2020`
 
@@ -71,7 +71,7 @@ The suite includes packages for configuration management, file handling, prompts
 
 - php: >=8.5
 - wexample/symfony-helpers: >=17.0.0
-- wexample/symfony-design-system: >=37.0.0
+- wexample/symfony-design-system: >=38.0.0
 
 ## Versioning & Compatibility Policy
 
