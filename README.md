@@ -1,6 +1,6 @@
 # symfony-design-system-effects
 
-Version: 3.0.6
+Version: 3.0.7
 
 Effects of the wexample brand for the design system: generated avatars (wexies-2020) first
 
